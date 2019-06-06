@@ -1,58 +1,83 @@
 <!DOCTYPE>
 <html>
-  <head>
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
-   <link href="styles.css" rel="stylesheet" type="text/css">
-   <script src="jquery-3.4.1.js"></script>
-   <script src="scripts.js"></script>
-   <title> Vacation Suggestions </title>
-  </head>
-  <body>
-    <div class ="container">
-      <h1 class="Where should your next vacaton be?">
-        <form id="vacationsurvey">
-          <div>
-            <div class="vacation">
-              <label>Whats your favorite type of weather?</label>
-              <select class="form-control" id="weather"
-                <option value="mexico">sun</option>
-                <option value="canada">snow</option>
-                <option value="seattle">rain</option>
-              </select>
-            </div>
+<head>
+  <link href="bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <script src="jquery-3.4.1.js"></script>
+  <script src="scripts.js"></script>
+  <title> Vacation Suggestions </title>
+</head>
+<body>
+  <div class ="container">
+    <h1 class="Where should your next vacaton be?">
+      <form id="vacationsurvey">
+        <div>
+          <div class="vacation">
+            <label>Whats your favorite type of weather?</label>
+            <select class="form-control" id="weather">
+              <option value="mexico">sun</option>
+              <option value="canada">snow</option>
+              <option value="seattle">rain</option>
+            </select>
+          </div>
 
-            <div class="vacation">
-              <label>Whats food sounds the best to you?</label>
-              <select class="form-control" id="food"
-                <option value="mexico">burrito</option>
-                <option value="canada">poutine</option>
-                <option value="seattle">seafood</option>
-              </select>
-            </div>
+          <div class="vacation">
+            <label>Whats food sounds the best to you?</label>
+            <select class="form-control" id="food">
+              <option value="mexico">burrito</option>
+              <option value="canada">poutine</option>
+              <option value="seattle">seafood</option>
+            </select>
+          </div>
 
-            <div class="vacation">
-              <label>If you had to pick one activity, what would it be?</label>
-              <select class="form-control" id="activity"
-                <option value="mexico">swimming</option>
-                <option value="canada">snowboarding</option>
-                <option value="seattle">hiking</option>
-              </select>
-            </div>
+          <div class="vacation">
+            <label>If you had to pick one activity, what would it be?</label>
+            <select class="form-control" id="activity">
+              <option value="mexico">swimming</option>
+              <option value="canada">snowboarding</option>
+              <option value="seattle">hiking</option>
+            </select>
+          </div>
 
-            <div class="vacation">
-              <label>What is your favorite sport?</label>
-              <select class="form-control" id="sport"
-                <option value="mexico">soccer</option>
-                <option value="canada">hockey</option>
-                <option value="seattle">football</option>
-              </select>
-            </div>
+          <div class="vacation">
+            <label>What is your favorite sport?</label>
+            <select class="form-control" id="sport">
+              <option value="mexico">soccer</option>
+              <option value="canada">hockey</option>
+              <option value="seattle">football</option>
+            </select>
+          </div>
 
-            <div class="vacation">
-              <label>What sounds like an ideal day duting vacation?</label>
-              <select class="form-control" id="day"
-                <option value="mexico">Lay on the beach?</option>
-                <option value="canada">Participate in snow activities like snowboarding & skiing </option>
-                <option value="seattle">Walk around & explore a new city and all it has to offer</option>
-              </select>
-            </div>
+          <div class="vacation">
+            <label>What sounds like an ideal day during vacation?</label>
+            <select class="form-control" id="day">
+              <option value="mexico">Lay on the beach?</option>
+              <option value="canada">Participate in snow activities like snowboarding & skiing </option>
+              <option value="seattle">Walk around & explore a new city and all it has to offer</option>
+            </select>
+          </div>
+          <div class="vacation"
+          <button id="submit class="btn btn-success">Submit</button>
+        </div>
+
+        <div id="mexico">
+          <h1>You should travel to Mexico!</h1>
+          <img class="border-box" src="mexico.jpg">
+          <p>If you enjoy sunny weather, the beach and maybe some soccer Meixco could be the place for you!</p>
+        </div>
+
+        <div id="canada">
+          <h1>You should travel to Canada!</h1>
+          <img class="border-box" src="canada.jpg">
+          <p>If you enjoy snowy weather, some hockey and maybe a nice thing of Poutine. Canada could be the place for you!</p>
+        </div>
+
+        <div id="seattle">
+          <h1>You should travel to Seattle!</h1>
+          <img class="border-box" src="seattle.jpg">
+          <p>If you enjoy rainy weather, seafood and want to catch a football game. Seattle might be a good destination for your next vacation!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
