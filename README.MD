@@ -1,4 +1,4 @@
-# _{Vacation Suggestions}_
+# _Vacation Suggestions_
 
 #### _{Javascrit & jquery independent project}, {June 8 2019_
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-_{Survey asking some questions and returns answers suggesting places the user might want to take their next vacation.}_
+_Survey asking some questions and returns answers suggesting places the user might want to take their next vacation._
 
 ## Setup/Installation Requirements
 
@@ -19,7 +19,7 @@ You can email me anytime if you run into any problems at drew.stanger@icloud.com
 
 ## Technologies Used
 
-_{Bootstrap, Javascript & jquery}_
+_Bootstrap, Javascript & jquery_
 
 ### License
 
