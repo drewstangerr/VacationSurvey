@@ -15,12 +15,12 @@ var canadaCount=0;
 var seattleCount=0;
 
 var evalQuestion = function (res) {
-  if (res==="mexico") mexicoCount++;
-  if (res==="canada") canadaCount++;
-  if (res==="seattle") seattleCount++;
+  if (result="mexico") mexicoCount++;
+  if (result="canada") canadaCount++;
+  if (result="seattle") seattleCount++;
 }
 
-var returnResult = function () {}
+var returnResult = function () {
   if (mexicoCount>canadaCount && mexicoCount>seattleCount) {
     $("#mexico").show();
     $("#canada").hide();
@@ -29,9 +29,9 @@ var returnResult = function () {}
     $("#canada").show();
     $("#mexico").hide();
     $("#seattle").hide();
-  } else (seattleCount>mexicoCount && seattleCount>canadaCount) {
-    $(#"seattle").show();
-    $(#"mexico").hide();
-    $("canada") .hide();
+  } else if (seattleCount>mexicoCount && seattleCount>canadaCount) {
+    $("#seattle").show();
+    $("#mexico").hide();
+    $("#canada") .hide();
   }
 }
