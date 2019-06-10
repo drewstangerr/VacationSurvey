@@ -1,8 +1,8 @@
 # _Vacation Suggestions_
 
-#### _{Javascrit & jquery independent project}, {June 8 2019_
+#### _Javascrit & jquery independent project June 8 2019_
 
-#### By _**{Drew Stanger}**_
+#### By _**Drew Stanger**_
 
 ## Description
 

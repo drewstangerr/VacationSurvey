@@ -1,11 +1,12 @@
 $(document).ready(function(){
-  $('#vacationsurvey form').submit(function() {
+  $('#vacationsurvey form').submit(function(event) {
     evalQuestion($('#weather').val());
     evalQuestion($('#food').val());
     evalQuestion($('#activity').val());
     evalQuestion($('#sport').val());
     evalQuestion($('#day').val());
     $('#result').text(returnResult());
+    event.preventDefault();
   });
 });
 
